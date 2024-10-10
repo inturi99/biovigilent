@@ -1,26 +1,36 @@
 import clsx from 'clsx';
-import { useState } from 'react';
+import { useEffect } from 'react';
 import GLPAudits from './glpAudits';
 import GMPAudits from './gmpAudits';
 import GCPAudits from './gcpAudits';
+import { useSearchParams } from 'react-router-dom';
 
 export default function ServicesComponent() {
-  const [state, setState] = useState<Number>(1);
+  let [searchParams, setSearchParams] = useSearchParams();
 
   const auditsList = [
     {
       id: 1,
       name: 'GCP Audits',
+      path: 'gcpAudits',
     },
     {
       id: 2,
       name: 'GMP Audits',
+      path: 'gmpAudits',
     },
     {
       id: 3,
       name: 'GLP Audits',
+      path: 'glpAudits',
     },
   ];
+
+  useEffect(() => {
+    if (!searchParams.get('tab')) {
+      setSearchParams({ tab: 'gcpAudits' });
+    }
+  }, [searchParams, setSearchParams]);
 
   return (
     <main className="flex flex-col gap-10 overflow-y-auto overflow-x-hidden">
@@ -29,11 +39,13 @@ export default function ServicesComponent() {
           {auditsList.map(audit => {
             return (
               <button
-                onClick={() => setState(audit.id)}
+                onClick={() => {
+                  setSearchParams({ tab: audit.path });
+                }}
                 key={audit.id}
                 className={clsx('', {
-                  'w-full text-center text-[#9B9B9B] border-b-2 border-[#D7D7D7]': state !== audit.id,
-                  'bg-[#E8F5F3] text-[#336DBC] w-full text-center border-b-2 border-[#336DBC]': state === audit.id,
+                  'w-full text-center text-[#9B9B9B] border-b-2 border-[#D7D7D7]': searchParams.get('tab') !== audit.path,
+                  'bg-[#E8F5F3] text-[#336DBC] w-full text-center border-b-2 border-[#336DBC]': searchParams.get('tab') === audit.path,
                 })}
               >
                 {audit.name}
@@ -42,21 +54,22 @@ export default function ServicesComponent() {
           })}
         </ul>
       </section>
-      <AuditsComponent tab={state.toString()} />
+      <AuditsComponent tab={searchParams.get('tab') ?? ''} />
     </main>
   );
 }
 
 function AuditsComponent({ tab }: { tab: string }): JSX.Element {
-  console.log(tab);
-
   switch (tab) {
-    case '1':
+    case 'gcpAudits':
       return <GCPAudits />;
-    case '2':
+    case 'gmpAudits':
       return <GMPAudits />;
-    case '3':
+    case 'glpAudits':
       return <GLPAudits />;
+    case '':
+      // Need to implement error page
+      return <>Page Not Found</>;
 
     default:
       return <GMPAudits />;
