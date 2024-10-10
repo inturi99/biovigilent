@@ -23,6 +23,7 @@ const router = createBrowserRouter([
         path: '/services',
         Component: ServicesComponent,
         children: [
+          { path: '', element: <Navigate to={'gcpAudits'} /> },
           {
             path: 'gcpAudits',
             element: <GCPAudits />,
