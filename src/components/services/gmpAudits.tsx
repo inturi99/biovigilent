@@ -42,7 +42,7 @@ export default function GMPAudits() {
           <li className="flex justify-center items-center gap-48">
             {gmpList.map(list => {
               return (
-                <div className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
+                <div key={list.id} className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
                   <img src={list.path} alt={list.name} />
                   <p className="font-poppins">{list.name}</p>
                 </div>
