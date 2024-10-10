@@ -2,22 +2,22 @@ export default function GLPAudits() {
   const glpList = [
     {
       id: 1,
-      path: './glp_img_one.png',
+      path: '/glp_img_one.png',
       name: 'Qualification of GLP facilities',
     },
     {
       id: 2,
-      path: './glp_img_two.png',
+      path: '/glp_img_two.png',
       name: 'GAP Analysis',
     },
     {
       id: 3,
-      path: './glp_img_three.png',
+      path: '/glp_img_three.png',
       name: 'Study Protocol / Report audits',
     },
     {
       id: 4,
-      path: './glp_img_four.png',
+      path: '/glp_img_four.png',
       name: 'Process / Data audits',
     },
   ];
@@ -26,8 +26,8 @@ export default function GLPAudits() {
       <section className="flex px-10 items-center justify-center">
         <article className="flex flex-col gap-5 pl-7">
           <div className="flex justify-center items-center w-full gap-3 relative">
-            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="./glp_audits_img_one.png" alt="service_img_one" />
-            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="./glp_audits_img_two.png" alt="service_img_two" />
+            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="/glp_audits_img_one.png" alt="service_img_one" />
+            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="/glp_audits_img_two.png" alt="service_img_two" />
 
             {/* Absolute elements for image bg shade as per figma */}
             <div className="bg-[#69D7C1] absolute -left-2.5 rounded-tl-[4rem] w-[50%] h-full -z-10"></div>
@@ -38,7 +38,7 @@ export default function GLPAudits() {
             provide the following comprehensive GMP Quality Compliance services to the pharmaceutical industry.
           </p>
         </article>
-        <img className="self-end py-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end py-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </section>
 
       <section>

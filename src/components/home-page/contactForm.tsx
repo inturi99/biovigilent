@@ -16,7 +16,7 @@ export default function ContactUs() {
         </div>
 
         <ContactForm />
-        <img className="self-end py-7 px-2" src="./scroll_up.svg" alt="scroll_up" />
+        <img className="self-end py-7 px-2" src="/scroll_up.svg" alt="scroll_up" />
       </div>
     </section>
   );

@@ -4,8 +4,8 @@ export default function GCPAudits() {
       <section className="flex px-10 items-center justify-center">
         <article className="flex flex-col gap-5 pl-7">
           <div className="flex justify-center items-center w-full gap-3 relative">
-            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="./services_img_one.png" alt="service_img_once" />
-            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="./services_img_two.png" alt="service_img_two" />
+            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="/services_img_one.png" alt="service_img_once" />
+            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="/services_img_two.png" alt="service_img_two" />
 
             {/* Absolute elements for image bg shade as per figma */}
             <div className="bg-[#69D7C1] absolute -left-2.5 rounded-tl-[4rem] w-[50%] h-full -z-10"></div>
@@ -18,14 +18,14 @@ export default function GCPAudits() {
             subject matter expertise to achieve audit objectives
           </p>
         </article>
-        <img className="self-end py-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end py-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </section>
       <section className="flex px-7 w-full my-8">
         <article className="flex justify-center items-center w-full pl-7">
           <div className="relative flex flex-col h-full justify-start items-center w-[40%] p-7 gap-12">
             <div className="flex">
-              <img className="w-36 h-36 pb-5 mb-2" src="./clinical_research.svg" alt="clinical_research" />
-              <img className="absolute -z-10 bottom-0 left-0" src="./bg_color.svg" alt="clinical_research" />
+              <img className="w-36 h-36 pb-5 mb-2" src="/clinical_research.svg" alt="clinical_research" />
+              <img className="absolute -z-10 bottom-0 left-0" src="/bg_color.svg" alt="clinical_research" />
             </div>
             <p className="pb-3 font-semibold font-poppins text-[#336DBC] text-xl">Clinical Research Organisation</p>
             <ul className="[&>*]:font-poppins leading-[2.225] text-[#393939]">
@@ -39,31 +39,31 @@ export default function GCPAudits() {
           <ul className="w-full flex flex-col items-center justify-center gap-9">
             <li className="flex justify-center items-center gap-24">
               <div className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
-                <img src="./pre_clininc.png" alt="pre_clinic" />
+                <img src="/pre_clininc.png" alt="pre_clinic" />
                 <p className="font-poppins">Pre-clinical facility</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
-                <img src="./audits.png" alt="pre_clinic" />
+                <img src="/audits.png" alt="pre_clinic" />
                 <p className="font-poppins">Audits</p>
               </div>
               <div className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
-                <img src="./clinical_monitoring.png" alt="pre_clinic" />
+                <img src="/clinical_monitoring.png" alt="pre_clinic" />
                 <p className="font-poppins">Clinical Monitoring</p>
               </div>
             </li>
             <div className="flex justify-center items-center gap-24 w-full">
               <li className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
-                <img src="./bioanalytical.png" alt="pre_clinic" />
+                <img src="/bioanalytical.png" alt="pre_clinic" />
                 <p className="font-poppins">Bioanalytical Monitoring</p>
               </li>
               <li className="flex flex-col items-center justify-center gap-3 font-poppins text-xl">
-                <img src="./pk_stats.png" alt="pre_clinic" />
+                <img src="/pk_stats.png" alt="pre_clinic" />
                 <p className="font-poppins">PK Stats Monitoring</p>
               </li>
             </div>
           </ul>
         </article>
-        <img className="self-end py-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end py-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </section>
       <MonitoringClinicalComponent />
       <BioanalyticalPhase />

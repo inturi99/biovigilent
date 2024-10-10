@@ -2,17 +2,17 @@ export default function GMPAudits() {
   const gmpList = [
     {
       id: 1,
-      path: './gmp_qualification.png',
+      path: '/gmp_qualification.png',
       name: 'GMP Qualification',
     },
     {
       id: 2,
-      path: './complaince.png',
+      path: '/complaince.png',
       name: 'Compliance & Upgradation Audits',
     },
     {
       id: 3,
-      path: './consulting.png',
+      path: '/consulting.png',
       name: 'GMP Consulting',
     },
   ];
@@ -22,8 +22,8 @@ export default function GMPAudits() {
       <section className="flex px-10 items-center justify-center">
         <article className="flex flex-col gap-5 pl-7">
           <div className="flex justify-center items-center w-full gap-3 relative">
-            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="./gmp_img_one.png" alt="service_img_once" />
-            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="./gmp_img_two.png" alt="service_img_two" />
+            <img className="rounded-tl-[4rem] w-[50%] h-[50%]" src="/gmp_img_one.png" alt="service_img_once" />
+            <img className="rounded-br-[4rem] w-[50%] h-[50%]" src="/gmp_img_two.png" alt="service_img_two" />
 
             {/* Absolute elements for image bg shade as per figma */}
             <div className="bg-[#69D7C1] absolute -left-2.5 rounded-tl-[4rem] w-[50%] h-full -z-10"></div>
@@ -34,7 +34,7 @@ export default function GMPAudits() {
             provide the following comprehensive GMP Quality Compliance services to the pharmaceutical industry.
           </p>
         </article>
-        <img className="self-end py-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end py-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </section>
 
       <section>

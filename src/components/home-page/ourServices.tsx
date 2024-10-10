@@ -13,7 +13,7 @@ export default function OurServices(): JSX.Element {
         </p>
         <ul className="flex gap-14 px-5 pt-5 self-center w-[90%] font-poppins [&>*]:bg-[#E8F5F3]">
           <li className="flex flex-col rounded-t-2xl">
-            <img className="rounded-t-2xl h-96 object-cover" src="./gcp_img.png" alt="gcp" />
+            <img className="rounded-t-2xl h-96 object-cover" src="/gcp_img.png" alt="gcp" />
             <div className="flex flex-col justify-center items-center w-full">
               <h5 className="text-[#336DBC] text-xl font-poppins font-semibold leading-9">GCP</h5>
               <p className="text-[#767676] tracking-wide font-thin font-poppins">Good Clinical Practice</p>
@@ -22,7 +22,7 @@ export default function OurServices(): JSX.Element {
           </li>
 
           <li className="flex flex-col rounded-t-2xl">
-            <img className="rounded-t-2xl h-96 object-cover" src="./gmp_img.png" alt="gmp" />
+            <img className="rounded-t-2xl h-96 object-cover" src="/gmp_img.png" alt="gmp" />
             <div className="flex flex-col justify-center items-center w-full">
               <h5 className="text-[#336DBC] text-xl font-poppins font-semibold leading-9">GMP</h5>
               <p className="text-[#767676] tracking-wide font-thin font-poppins">Good Manufacturing Practice</p>
@@ -31,7 +31,7 @@ export default function OurServices(): JSX.Element {
           </li>
 
           <li className="flex flex-col rounded-t-2xl">
-            <img className="rounded-t-2xl h-96 object-cover" src="./glp_img.png" alt="glp" />
+            <img className="rounded-t-2xl h-96 object-cover" src="/glp_img.png" alt="glp" />
             <div className="flex flex-col justify-center items-center w-full">
               <h5 className="text-[#336DBC] text-xl font-poppins font-semibold leading-9">GLP</h5>
               <p className="text-[#767676] tracking-wide font-thin font-poppins">Good Laboratory Practice</p>
@@ -43,7 +43,7 @@ export default function OurServices(): JSX.Element {
           Learn more
         </button>
       </div>
-      <img className="self-end pb-20 px-2" src="./scroll_down.svg" alt="scroll_down" />
+      <img className="self-end pb-20 px-2" src="/scroll_down.svg" alt="scroll_down" />
     </section>
   );
 }

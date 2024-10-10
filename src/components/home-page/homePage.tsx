@@ -21,9 +21,9 @@ export default function HomePageComponent() {
               Know more
             </button>
           </article>
-          <img width="50%" height="25%" src="./home_img.svg" alt="home_image" />
+          <img width="50%" height="25%" src="/home_img.svg" alt="home_image" />
         </div>
-        <img className="self-end py-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end py-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </section>
       <OurServices />
 
@@ -39,7 +39,7 @@ function AboutUs() {
       <div className="flex">
         <div className="flex flex-col justify-center items-center gap-4">
           <main className="flex items-center justify-center">
-            <img width="45%" height="20%" src="./home_about_us.svg" alt="about_us" />
+            <img width="45%" height="20%" src="/home_about_us.svg" alt="about_us" />
             <div className="flex flex-col gap-14 w-[45%]">
               <header className="font-poppins font-bold text-5xl">
                 <h1 className="pb-3 font-poppins text-xl underline decoration-[3px] decoration-[#69D7C1] underline-offset-8 text-[#336DBC] font-semibold">
@@ -60,7 +60,7 @@ function AboutUs() {
             </div>
           </main>
         </div>
-        <img className="self-end pb-7 px-2" src="./scroll_down.svg" alt="scroll_down" />
+        <img className="self-end pb-7 px-2" src="/scroll_down.svg" alt="scroll_down" />
       </div>
       <MissionAndVision />
     </section>
