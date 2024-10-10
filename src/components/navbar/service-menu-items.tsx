@@ -1,12 +1,10 @@
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function ServiceMenuItems() {
-  const [, setSearchParams] = useSearchParams();
   const [dropdown, setDropdown] = useState<boolean>(false);
   const navigate = useNavigate();
-
   const serviceItems = [
     {
       id: 1,
@@ -40,8 +38,7 @@ export default function ServiceMenuItems() {
           return (
             <li
               onClick={() => {
-                setSearchParams({ tab: item.path });
-                navigate(`/services?tab=${item.path}`);
+                navigate(`/services/${item.path}`);
                 setDropdown(false);
               }}
               className="flex hover:text-[#336DBC] justify-center items-center text-center w-full cursor-pointer"
