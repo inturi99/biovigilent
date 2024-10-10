@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 
 export default function ServiceMenuItems() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [, setSearchParams] = useSearchParams();
   const [dropdown, setDropdown] = useState<boolean>(false);
   const navigate = useNavigate();
 
@@ -24,12 +24,6 @@ export default function ServiceMenuItems() {
       path: 'glpAudits',
     },
   ];
-
-  //   useEffect(() => {
-  //     if (location.pathname === '/home') {
-  //       navigate('/home');
-  //     }
-  //   }, [searchParams, setSearchParams]);
 
   return (
     <div className="absolute left-[46%] top-[2.8rem] w-20 h-[24vh]">
