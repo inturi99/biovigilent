@@ -41,7 +41,7 @@ export default function ServiceMenuItems() {
                 navigate(`/services/${item.path}`);
                 setDropdown(false);
               }}
-              className="flex hover:text-[#336DBC] justify-center items-center text-center w-full cursor-pointer"
+              className="flex transition-all duration-200 delay-100 ease-in-out hover:text-[#336DBC] justify-center items-center text-center w-full cursor-pointer"
               key={item.id}
             >
               {item.name}
