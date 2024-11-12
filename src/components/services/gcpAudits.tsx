@@ -13,8 +13,8 @@ export default function GCPAudits() {
           </div>
           <p className="font-poppins text-[#767676]">
             Ensuring the quality of data collected in clinical trials and BA/BE projects is crucial for success. A well-organized system
-            audit identifies potential issues early, allowing timely solutions. BioVigilent Auditors, with extensive experience, achieves
-            audit objectives given the complexity and regulatory scrutiny, site audit programs. BioVigilent Auditors leverages extensive
+            audit identifies potential issues early, allowing timely solutions. PharmaVigilence Auditors, with extensive experience, achieves
+            audit objectives given the complexity and regulatory scrutiny, site audit programs. PharmaVigilence Auditors leverages extensive
             subject matter expertise to achieve audit objectives
           </p>
         </article>
@@ -81,8 +81,8 @@ function MonitoringClinicalComponent() {
         </h1>
         <p className="font-poppins text-[#767676] py-4">
           Ensuring the quality of data collected in clinical trials and BA/BE projects is crucial for success. A well-organized system audit
-          identifies potential issues early, allowing timely solutions. BioVigilent Auditors, with extensive experience, achieves audit
-          objectives given the complexity and regulatory scrutiny, site audit programs. BioVigilent Auditors leverages extensive subject
+          identifies potential issues early, allowing timely solutions. PharmaVigilence Auditors, with extensive experience, achieves audit
+          objectives given the complexity and regulatory scrutiny, site audit programs. PharmaVigilence Auditors leverages extensive subject
           matter expertise to achieve audit objectives
         </p>
       </div>
@@ -90,7 +90,7 @@ function MonitoringClinicalComponent() {
       <div>
         <h1 className="text-[#336DBC] font-poppins text-xl font-semibold">Site Initiation Visit</h1>
         <p className="font-poppins text-[#767676] py-4">
-          BioVigilent experts conduct site visits well in advance of trial initiation, ensuring the following items during Site Initiation
+          PharmaVigilence experts conduct site visits well in advance of trial initiation, ensuring the following items during Site Initiation
           Visits (SIV)
         </p>
         <ul className="list-disc pl-7">
@@ -107,7 +107,7 @@ function MonitoringClinicalComponent() {
       <div>
         <h1 className="text-[#336DBC] font-poppins text-xl font-semibold">Site Monitoring Visit</h1>
         <p className="font-poppins text-[#767676] py-4">
-          BioVigilent experts visit sites during the trial commencement as per monitoring visit scope and requirements and ensure following
+          PharmaVigilence experts visit sites during the trial commencement as per monitoring visit scope and requirements and ensure following
           items during visit.
         </p>
         <ul className="list-disc pl-7">
@@ -115,7 +115,7 @@ function MonitoringClinicalComponent() {
           <li>Timely project updates including subject enrolment, dosing, unexpected AE/SAE or withdrawal etc.</li>
           <li>Eliminating possibilities of Informed Consent Process related concerns and recruiting unfit volunteers</li>
           <li>Complete accountability of Investigational Product & Assurance of right IMP dosing with right randomization code</li>
-          <li>With presence of BioVigilent monitors, it allows to avoid any under reporting of AE/SAE/Withdrawal</li>
+          <li>With presence of PharmaVigilence monitors, it allows to avoid any under reporting of AE/SAE/Withdrawal</li>
           <li>Continuous monitoring can avoid sample swap or mixing of samples during processing</li>
           <li>Each and every aspect of the study to ensure 100% compliance to regulatory, protocol and in-house SOPs</li>
         </ul>
@@ -124,7 +124,7 @@ function MonitoringClinicalComponent() {
       <div>
         <h1 className="text-[#336DBC] font-poppins text-xl font-semibold">Site Clouse out Visit</h1>
         <p className="font-poppins text-[#767676] py-4">
-          BioVigilent experts visit sites at the end of trial and ensure following closure items during SCOV
+          PharmaVigilence experts visit sites at the end of trial and ensure following closure items during SCOV
         </p>
         <ul className="list-disc pl-7">
           <li>To ensure that site has taken appropriate CAPA on any or above monitoring Visit</li>
@@ -136,7 +136,7 @@ function MonitoringClinicalComponent() {
       <div>
         <h1 className="text-[#336DBC] font-poppins text-xl font-semibold">Retrospective Monitoring Visits</h1>
         <p className="font-poppins text-[#767676] py-4">
-          BioVigilent experts visit sites at the completion of clinical phase and review following items in detail
+          PharmaVigilence experts visit sites at the completion of clinical phase and review following items in detail
         </p>
         <ul className="list-disc pl-7">
           <li>This is generally conducted after completion of Clinical Phase and/or when the draft report is ready</li>

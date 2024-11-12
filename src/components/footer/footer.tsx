@@ -2,7 +2,7 @@ export default function FooterComponent() {
   return (
     <footer className="flex flex-col px-7 gap-7 items-center justify-center bg-[#E8F5F3] py-3">
       <header className="flex justify-between w-full pl-7">
-        <img src="/logo.svg" alt="logo" />
+        <img width="10%" height="10%" className="ml-3" src="/KPV-LOGO.png" alt="logo" />
         <ul className="flex [&>*]:mx-12 items-center font-poppins">
           <li>Home</li>
           <li>Services</li>

@@ -48,8 +48,8 @@ function AboutUs() {
                 <p>Pioneering Precision in Healthcare Auditing for Superior Compliance and Care</p>
               </header>
               <p className="font-poppins leading-7 text-[#767676]">
-                BioVigilent is well established pharmaceutical consultancy service provider specialized in Quality monitoring & audit
-                services for Clinical studies, CROs, Contract manufacturing plants and contract testing facilities. Since 2024, BioVigilent
+                PharmaVigilence is well established pharmaceutical consultancy service provider specialized in Quality monitoring & audit
+                services for Clinical studies, CROs, Contract manufacturing plants and contract testing facilities. Since 2024, PharmaVigilence
                 has proven its outstanding expertise and services to pharmaceutical companies. We are a highly focused GxP compliance
                 service-oriented company. We’re a company that supports the toughest GxP compliance challenges. We do more than consulting —
                 we aim to make a remarkable impact on GxP compliance services. The auditing report and data will undergo a thorough

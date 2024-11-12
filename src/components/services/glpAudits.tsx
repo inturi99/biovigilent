@@ -70,7 +70,7 @@ function GLPFacilities() {
         Qualification of GLP facilities
       </h1>
       <p className="font-poppins text-[#767676] py-4">
-        BioVigilent has a robust team of experts with the experience and capability to conduct audits across the globe. GLP audits are
+        PharmaVigilence has a robust team of experts with the experience and capability to conduct audits across the globe. GLP audits are
         conducted with FDA and EU regulations and guidelines (21 CFR Part 58, OECD) as the standard by which they’re conducted. Our audit
         capabilities are
       </p>
@@ -91,7 +91,7 @@ function GapAnalysis() {
         Gap analyses audits
       </h1>
       <p className="font-poppins text-[#767676] py-4">
-        BioVigilent auditors are conducting a gap analysis audit for a Good Laboratory Practice (GLP) lab, we ensure compliance with GLP
+        PharmaVigilence auditors are conducting a gap analysis audit for a Good Laboratory Practice (GLP) lab, we ensure compliance with GLP
         regulations and assess the quality and integrity of the data. Here are some key areas to verify
       </p>
       <ul className="list-disc pl-7">
@@ -111,7 +111,7 @@ function StudyProtocol() {
         Study Protocol / Report audits
       </h1>
       <p className="font-poppins text-[#767676] py-4">
-        BioVigilent conducting a study-specific audit for a Good Laboratory Practice (GLP) lab, focus on ensuring compliance with GLP
+        PharmaVigilence conducting a study-specific audit for a Good Laboratory Practice (GLP) lab, focus on ensuring compliance with GLP
         regulations, the study protocol, and applicable Standard Operating Procedures (SOPs). Here are key areas to verify:
       </p>
       <ul className="list-disc pl-7">
@@ -140,7 +140,7 @@ function DataAudits() {
         Process / Data audits
       </h1>
       <p className="font-poppins text-[#767676] py-4">
-        BioVigilent conducting a process audit for a Good Laboratory Practice (GLP) lab, focus on evaluating the procedures, practices, and
+        PharmaVigilence conducting a process audit for a Good Laboratory Practice (GLP) lab, focus on evaluating the procedures, practices, and
         adherence to GLP principles within the lab for specific process. Here are key areas to verify
       </p>
       <ul className="list-disc pl-7">
