@@ -24,9 +24,7 @@ export default function NavbarComponent() {
 
   return (
     <header className="flex justify-between bg-[#E8F5F3] p-3 px-12 relative">
-      <a href='/home'>
-        <img width="10%" height="10%" className="ml-3" src="/KPV-LOGO.png" alt="logo" />
-      </a>
+      <img width="10%" height="10%" className="ml-3" src="/KPV-LOGO.png" alt="logo" />
       <ul className="flex justify-around items-center [&>*]:mx-11 font-poppins font-semibold">
         {navItems.map(item => {
           return (
