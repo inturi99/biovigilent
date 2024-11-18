@@ -31,7 +31,7 @@ export default function FooterComponent() {
       <div className="w-[95%] mr-6 h-0.5 bg-black"></div>
       <div className="flex items-center justify-center">
         <img src="/copyright.svg" alt="copyright" />
-        <p>Bio Vigilent.LLP, All Rights Reserved.</p>
+        <p>Pharma Vigilence, All Rights Reserved.</p>
       </div>
     </footer>
   );

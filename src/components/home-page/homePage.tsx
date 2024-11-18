@@ -10,7 +10,7 @@ export default function HomePageComponent() {
           <article className="flex flex-col justify-around pl-7">
             <header>
               <h6 className="font-poppins text-[#336DBC] font-semibold text-xl">Comprehensive Medical Audits</h6>
-              <h1 className="text-6xl font-bold font-poppins w-[98%] leading-normal">Ensuring Excellence in Healthcare Auditing</h1>
+              <h5 className="text-4xl font-bold font-poppins w-[98%] leading-normal">Ensuring Excellence in Healthcare Auditing</h5>
             </header>
             <p className="font-poppins text-[#767676] w-[98%] text-lg">
               we specialize in delivering precise and thorough medical audit services that uphold the highest standards of healthcare. Our

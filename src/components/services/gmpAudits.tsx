@@ -65,11 +65,7 @@ function GMPAuditsComponent() {
         GMP Qualification Audits
       </h1>
       <p className="font-poppins text-[#767676] py-4">
-        The success of any clinical trial/BABE project depends on assuring that the data collected are of good quality. A well organize
-        system audit will point out potential problem areas early so that the solutions can be found before it is too late. This can be
-        ensured by various types of audits. Due to the increasing complexity of clinical trials and regulatory scrutiny, the components of a
-        site audit program and the approaches taken towards designing and managing audits are constantly evolving. Pharmazone Auditors has
-        extensive experience in their respective subject matter to accomplish the objective of the audit.
+        The success of any clinical trial/BABE project depends on assuring that the data collected are of good quality. A well organize system audit will point out potential problem areas early so that the solutions can be found before it is too late. This can be ensured by various types of audits. Due to the increasing complexity of clinical trials and regulatory scrutiny, the components of a site audit program and the approaches taken towards designing and managing audits are constantly evolving. Pharmazone Auditors has extensive experience in their respective subject matter to accomplish the objective of the audit.
       </p>
     </section>
   );

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function OurServices(): JSX.Element {
   return (
     <section className="flex px-7 my-5 items-center justify-center">
@@ -15,9 +17,11 @@ export default function OurServices(): JSX.Element {
           <li className="flex flex-col rounded-t-2xl">
             <img className="rounded-t-2xl h-96 object-cover" src="/gcp_img.png" alt="gcp" />
             <div className="flex flex-col justify-center items-center w-full">
-              <h5 className="text-[#336DBC] text-xl font-poppins font-semibold leading-9">GCP</h5>
-              <p className="text-[#767676] tracking-wide font-thin font-poppins">Good Clinical Practice</p>
-              <h6 className="text-[#767676] text-lg font-semibold">Audits</h6>
+              <Link to="/services/gcpAudits" className="flex flex-col justify-center items-center w-full">
+                <h5 className="text-[#336DBC] text-xl font-poppins font-semibold leading-9">GCP</h5>
+                <p className="text-[#767676] tracking-wide font-thin font-poppins">Good Clinical Practice</p>
+                <h6 className="text-[#767676] text-lg font-semibold">Audits</h6>
+              </Link>
             </div>
           </li>
 
