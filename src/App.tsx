@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createHashRouter, Navigate, RouterProvider } from 'react-router-dom';
 import './App.css';
 import RootComponent from './components/root-app';
 import ServicesComponent from './components/services/services';
@@ -7,7 +7,7 @@ import GCPAudits from './components/services/gcpAudits';
 import GMPAudits from './components/services/gmpAudits';
 import GLPAudits from './components/services/glpAudits';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     Component: RootComponent,
     children: [
